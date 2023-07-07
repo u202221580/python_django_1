@@ -9,11 +9,19 @@
         <h1 class="display-1 text-center">Django App</h1>
         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magnam officiis et perferendis eaque aliquid in facere veniam, quae qui ipsum, ipsam nesciunt. Sunt nostrum consequatur aliquam excepturi ipsa enim!</P>
 
+
+        {% if user.is_authenticated %}
+
+        <h1 class="text-center">Hola</h1> 
+        
+        {% else %}
         <div class="text-center">
             <a class="btn btn-primary" href="/signin/">Sign In</a>
             
             <a class="btn btn-success" href="/signup/">Sign up</a>
         </div>
+        
+        {% endif %}
     </section>
 </main>
 
