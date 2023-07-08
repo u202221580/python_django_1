@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware'
     
 ]
-]
+
 
 ROOT_URLCONF = 'djangocrud.urls'
 
