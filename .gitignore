@@ -1,0 +1,5 @@
+db.sqlite3
+README.md
+venv
+__pycache__
+scripts.txt
